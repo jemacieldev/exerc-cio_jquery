@@ -1,0 +1,47 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;   
+}
+
+header, body {
+    background-color: #e9e6e3;
+    padding: 24px 0;
+    color: #fff;
+    text-align: center;
+    font-style: none;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    background-color:#e9e6e3;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    cursor: pointer;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+h1, button, ul {
+    color: rgb(0, 0, 0);
+}
+
+/* Adiciona linha sobre o texto quando a tarefa é concluída */
+.concluida {
+    text-decoration: line-through;
+}
