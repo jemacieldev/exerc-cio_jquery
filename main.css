@@ -28,17 +28,27 @@ button {
 button {
     background-color:#e9e6e3;
     font-weight: bold;
+    border: 1px solid gray;
 }
+
+/*para ter a borda mais fraquinha é só colocar a cor e o tamanho */
 
 ul {
     text-align: center;
     cursor: pointer;
     word-wrap: break-word;
     max-width: 100%;
+    list-style: none;
 }
 
 h1, button, ul {
     color: rgb(0, 0, 0);
+}
+
+li::before {
+margin-right: 5px;
+content: "•";
+
 }
 
 /* Adiciona linha sobre o texto quando a tarefa é concluída */
